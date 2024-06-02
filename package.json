@@ -1,15 +1,15 @@
 {
-  "name": "ianaio-rustwasm-ts",
+  "name": "website",
   "version": "0.0.1",
   "private": true,
   "author": "Jaroslaw Cichon <dev@iana.io>",
   "description": "IanaIO TypeScript docusaurus document hosted on the RustWasm backend",
   "repository": {
   "type": "git",
-  "url": "https://github.com/ianaio/ianaio-rustwasm-ts"
+  "url": "https://github.com/ianaio/website"
   },
   "bugs": {
-  "url": "https://github.com/ianaio/ianaio-rustwasm-ts/issues"
+  "url": "https://github.com/ianaio/website/issues"
   },
   "keywords": [
     "typescript",
@@ -54,7 +54,7 @@
     ]
   },
   "engines": {
-    "node": ">=16.14"
+    "node": ">=20.14.0"
   }
 }
 
