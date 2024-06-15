@@ -5,27 +5,27 @@ description: "Using the Gloo toolkit"
 
 ## Using the Whole Toolkit
 
-Using the whole toolkit via the umbrella `ianaio` crate lets you hit the ground
+Using the whole toolkit via the umbrella `gloo` crate lets you hit the ground
 running, with everything at your fingertips. This is a good choice for people
 making Web applications, or top-level crates that are compiled into Wasm
 binaries.
 
 ### `Cargo.toml`
 
-Add a `ianaio` dependency to your `Cargo.toml`:
+Add a `gloo` dependency to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-ianaio = "0.3"
+gloo = "0.3"
 ```
 
 ### `src/lib.rs`
 
-Use various bits of `ianaio` via its submodules, for example timers and intervals
-are in `ianaio::timers` and event listeners are in `ianaio::events`:
+Use various bits of `gloo` via its submodules, for example timers and intervals
+are in `gloo::timers` and event listeners are in `gloo::events`:
 
 ```rust
-use ianaio::{timers, events};
+use gloo::{timers, events};
 
 // ...
 ```
@@ -40,20 +40,20 @@ that are compiled into Wasm binaries.
 ### `Cargo.toml`
 
 If we want to use only the Gloo functionality that wraps `setTimeout`, we can
-add `ianaio-timers` to our dependencies in `Cargo.toml`:
+add `gloo-timers` to our dependencies in `Cargo.toml`:
 
 ```toml
 [dependencies]
-ianaio-timers = "0.2"
+gloo-timers = "0.2"
 ```
 
 ### `src/lib.rs`
 
-Next, import the functionality you need from the `ianaio_timers` crate, and go to
+Next, import the functionality you need from the `gloo_timers` crate, and go to
 town with it:
 
 ```rust
-use ianaio_timers::callback::Timeout;
+use gloo_timers::callback::Timeout;
 
 // ...
 ```
