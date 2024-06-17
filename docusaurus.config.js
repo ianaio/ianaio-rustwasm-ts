@@ -4,8 +4,10 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+// See: https://github.com/facebook/docusaurus/issues/8940 
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
