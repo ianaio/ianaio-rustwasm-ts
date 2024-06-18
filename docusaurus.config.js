@@ -43,59 +43,8 @@ const config = {
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          type: 'dropdown',
-          label: 'docs.rs',
-          position: 'right',
-          items: [
-            {
-              label: 'ianaio',
-              href: 'https://docs.rs/ianaio',
-            },
-            {
-              label: 'dialogs',
-              href: 'https://docs.rs/ianaio-dialogs/',
-            },
-            {
-              label: 'events',
-              href: 'https://docs.rs/ianaio-events/',
-            },
-            {
-              label: 'file',
-              href: 'https://docs.rs/ianaio-file/',
-            },
-            {
-              label: 'history',
-              href: 'https://docs.rs/ianaio-history/',
-            },
-            {
-              label: 'net',
-              href: 'https://docs.rs/ianaio-net/',
-            },
-            {
-              label: 'render',
-              href: 'https://docs.rs/ianaio-render/',
-            },
-            {
-              label: 'storage',
-              href: 'https://docs.rs/ianaio-storage/',
-            },
-            {
-              label: 'timers',
-              href: 'https://docs.rs/ianaio-timers/',
-            },
-            {
-              label: 'utils',
-              href: 'https://docs.rs/ianaio-utils/',
-            },
-            {
-              label: 'worker',
-              href: 'https://docs.rs/ianaio-worker/',
-            }
-          ],
-        },
-        {
-          href: 'https://github.com/ianaio/ianaio',
-          label: 'GitHub',
+          href: 'https://docs.iana.io',
+          label: 'Docs',
           position: 'right',
         },
       ],
