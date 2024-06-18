@@ -29,6 +29,11 @@ const config = {
   organizationName: 'rustwasm',
   projectName: 'ianaio',
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    }, 
     navbar: {
       title: 'IanaIO',
       logo: {
