@@ -13,9 +13,9 @@
   },
   "keywords": [
     "showcases",
-    "document",
-    "ianaio",
-    "rustwasm"
+    "documents",
+    "blog",
+    "resources"
   ],
   "license-file": "LICENSE.txt",
   "scripts": {
