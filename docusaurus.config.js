@@ -12,7 +12,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'IanaIO',
-  tagline: ' A modular toolkit for building fast, reliable Web applications and libraries with Rust language and Web Assembly',
+  tagline: ' A hybrid crypto data security software. Provides the best quality and a unique data not only for global community but also for governments and corporations. ',
   url: 'https://www.iana.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -37,7 +37,7 @@ const config = {
     navbar: {
       title: 'IanaIO',
       logo: {
-        alt: 'Ferris <3 IanaIO',
+        alt: 'AI <3 IanaIO',
         src: 'img/ianaio-logo.webp',
       },
       items: [
@@ -104,11 +104,23 @@ const config = {
       style: 'dark',
       links: [
         {
+          title: 'Follow us',
+          items: [
+            {
+              alt: 'AI <3 IanaIO Logo',
+              label: 'X',
+              href: 'https://x.com/_ianaio', 
+              width: 25,
+              height: 25,
+            },
+          ],
+	},
+        {
           title: 'Community',
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.com/channels/1247475712001314857/1247475712001314860', // #IanaIO in Yew server
+              href: 'https://discord.com/channels/1247475712001314857/1247475712001314860',
             },
           ],
         },
@@ -126,6 +138,14 @@ const config = {
           ],
         },
       ],
+      logo: {
+        alt: 'IanaIO logo',
+        src: 'img/ianaio-logo.webp',
+        href: 'https://www.iana.io',
+        width: 27.83,
+        height: 32,
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} IanaIO, Inc.`, // You can also put own HTML here
     },
     prism: {
       theme: lightCodeTheme,
@@ -159,3 +179,4 @@ const config = {
 };
 
 module.exports = config;
+
