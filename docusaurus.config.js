@@ -11,8 +11,8 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IanaIO - docs',
-  tagline: ' IanaIO documents. ',
+  title: 'IanaIO System - Documents 
+  tagline: ' IanaIO Technical Information ',
   url: 'https://docs.iana.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -95,8 +95,19 @@ const config = {
         },
         {
           href: 'https://github.com/ianaio/ianaio',
-          label: 'GitHub',
           position: 'right',
+          alt: 'IanaIO at github',
+          src: 'img/icons-github.svg',
+          width: 24,
+          height: 24,
+        },
+        {
+          href: 'https://discord.com/channels/1247475712001314857/1247475712001314860',
+          position: 'right',
+	  alt: 'IanaIO Discord chat',
+          src: 'img/discord-logo-white.svg',
+          width: 24,
+          height: 18.3,
         },
       ],
     },
