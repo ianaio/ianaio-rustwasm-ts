@@ -9,9 +9,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IANA SYSTEMS - AI-Human Hybrid Systems for security and analytics.',
+  title: 'IANA SYSTEMS - Security',
   tagline: ' Unique security system - Analytics - We build tools that matter most ',
-  url: 'https://www.iana.io',
+  url: 'https://security.iana.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -23,7 +23,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  favicon: 'img/Gloo-Logo.ico',
+  favicon: 'img/ianaio-logo.ico',
   organizationName: 'ianaio',
   projectName: 'ianaio',
   themeConfig: {
@@ -87,13 +87,13 @@ const config = {
           ],
         },
         {
-          href: 'https://analytics.iana.io',
-          label: 'Analytics',
+          href: 'https://www.iana.io',
+          label: 'Home',
           position: 'left',
         },
         {
-          href: 'https://www.iana.io',
-          label: 'Security',
+          href: 'https://analytics.iana.io',
+          label: 'Analytics',
           position: 'left',
         },
       ],
@@ -157,3 +157,4 @@ const config = {
 };
 
 module.exports = config;
+
