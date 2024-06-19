@@ -93,6 +93,16 @@ const config = {
             }
           ],
         },
+        {
+          href: 'https://github.com/ianaio/ianaio',
+          label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://discord.com/channels/1247475712001314857/1247475712001314860',
+          label: 'Discord',
+          position: 'right',
+        },
       ],
     },
     footer: {
