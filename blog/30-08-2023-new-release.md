@@ -1,15 +1,15 @@
 ---
-slug: release-0.3.0
-title: Releasing v0.3.0
-author: Muhammad Hamza
-author_title: Maintainer of Gloo
-author_url: https://github.com/hamza1311
-author_image_url: https://avatars.githubusercontent.com/u/47357913?v=4
+slug: release-0.1.1
+title: Releasing v0.1.1
+author: Cichy
+author_title: Maintainer of IanaIO
+author_url: https://github.com/cichy
+author_image_url: https://avatars.githubusercontent.com/u/443253?v=4
 tags: [release]
 ---
 
-The Gloo team is happy to announce a new, long overdue, version of Gloo: v0.3.0.
-Gloo is a modular toolkit for building fast, reliable Web applications and libraries with Rust and WASM.
+The IanaIO team is happy to announce a new, long overdue, version of IanaIO: v0.1.1.
+IanaIO is a modular toolkit for building fast, reliable Web applications and libraries with Rust and WASM.
 
 ## What's new
 
@@ -84,5 +84,5 @@ It can be used to access both local storage and session storage.
 
 ## Looking for contributors
 
-Gloo project is in need of contributors. I recently became maintainer of this project, and I'm trying to revive it.
-It would be really appreciated if you could contribute or raise awareness about the Gloo project.
+IanaIO project is in need of contributors. I recently became maintainer of this project, and I'm trying to revive it.
+It would be really appreciated if you could contribute or raise awareness about the IanaIO project.
