@@ -11,8 +11,8 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IanaIO',
-  tagline: ' A hybrid crypto data security software. Provides the best quality and a unique data not only for global community but also for governments and corporations. ',
+  title: 'IanaIO - DOCUMENTS',
+  tagline: ' Documents - Technology - Methodology - Terminology - Showcase - Resources ',
   url: 'https://docs.iana.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -41,6 +41,11 @@ const config = {
         src: 'img/ianaio-logo.webp',
       },
       items: [
+        {
+          href: 'https://www.iana.io',
+          label: 'Home',
+          position: 'left',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'dropdown',
