@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: 'IanaIO',
   tagline: ' A hybrid AI-Human software. Provides the best quality and a unique data not only for global community but also for governments and corporations. ',
-  url: 'https://analytics.iana.io',
+  url: 'https://dev.iana.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -95,7 +95,7 @@ const config = {
       logo: {
         alt: 'IanaIO logo',
         src: 'img/ianaio-logo.webp',
-        href: 'https://www.iana.io',
+        href: 'https://dev.iana.io',
         width: 27.83,
         height: 32,
       },
