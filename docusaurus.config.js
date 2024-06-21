@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: 'IanaIO',
   tagline: ' A hybrid AI-Human software. Provides the best quality and a unique data not only for global community but also for governments and corporations. ',
-  url: 'https://www.iana.io',
+  url: 'https://www.proudamerica.us',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -95,11 +95,11 @@ const config = {
       logo: {
         alt: 'IanaIO logo',
         src: 'img/ianaio-logo.webp',
-        href: 'https://www.iana.io',
+        href: 'https://www.proudamerica.us',
         width: 27.83,
         height: 32,
       },
-      copyright: `Copyright © ${new Date().getFullYear()} IanaIO, Inc.`, // You can also put own HTML here
+      copyright: `Copyright © ${new Date().getFullYear()} Proud America United States, Inc.`, // You can also put own HTML here
     },
     prism: {
       theme: lightCodeTheme,
