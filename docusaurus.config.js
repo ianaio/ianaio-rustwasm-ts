@@ -11,8 +11,8 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IanaIO',
-  tagline: ' A hybrid AI-Human software. Provides the best quality and a unique data not only for global community but also for governments and corporations. ',
+  title: 'Proud America',
+  tagline: ' Top Quality People and Products. ',
   url: 'https://www.proudamerica.us',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -25,7 +25,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  favicon: 'img/ianaio-logo.ico',
+  favicon: 'img/proudamericaus.ico',
   organizationName: 'rustwasm',
   projectName: 'ianaio',
   themeConfig: {
@@ -38,7 +38,7 @@ const config = {
       title: 'IanaIO',
       logo: {
         alt: 'AI <3 IanaIO',
-        src: 'img/ianaio-logo.webp',
+        src: 'img/proudamericaus.png',
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
@@ -94,7 +94,7 @@ const config = {
       ],
       logo: {
         alt: 'IanaIO logo',
-        src: 'img/ianaio-logo.webp',
+        src: 'img/proudamericaus.png',
         href: 'https://www.proudamerica.us',
         width: 27.83,
         height: 32,
