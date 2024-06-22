@@ -27,7 +27,7 @@ const config = {
   },
   favicon: 'img/proudamericaus.ico',
   organizationName: 'rustwasm',
-  projectName: 'ianaio',
+  projectName: 'proudamerica',
   themeConfig: {
     colorMode: {
       defaultMode: 'light',
@@ -35,23 +35,13 @@ const config = {
       respectPrefersColorScheme: true,
     }, 
     navbar: {
-      title: 'IanaIO',
+      title: 'Proud America',
       logo: {
-        alt: 'AI <3 IanaIO',
+        alt: 'AI <3 Proud America',
         src: 'img/proudamericaus.png',
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://security.iana.io',
-          label: 'Security',
-          position: 'left',
-        },
-        {
-          href: 'https://docs.iana.io',
-          label: 'Docs',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -61,20 +51,20 @@ const config = {
           title: 'Follow us',
           items: [
             {
-              alt: 'AI <3 IanaIO Logo',
+              alt: 'AI <3 Proud America',
               label: 'X',
-              href: 'https://x.com/_ianaio', 
+              href: 'https://x.com/proudamericaus', 
               width: 25,
               height: 25,
             },
           ],
 	},
         {
-          title: 'Community',
+          title: 'Shop',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.com/channels/1247475712001314857/1247475712001314860',
+              label: '#',
+              href: '#',
             },
           ],
         },
@@ -86,8 +76,8 @@ const config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/ianaio/ianaio',
+              label: '#',
+              href: '#',
             },
           ],
         },
@@ -99,7 +89,7 @@ const config = {
         width: 27.83,
         height: 32,
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Proud America United States, Inc.`, // You can also put own HTML here
+      copyright: `Copyright © ${new Date().getFullYear()} Proud America - The United States, Inc.`, // You can also put own HTML here
     },
     prism: {
       theme: lightCodeTheme,
