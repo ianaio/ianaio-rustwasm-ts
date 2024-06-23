@@ -6,7 +6,7 @@
   "description": "IanaIO wwwproudmericaus website",
   "repository": {
   "type": "git",
-  "url": "https://github.com/ianaio/website/tree/wwwproudamericaus-stripe"
+  "url": "https://github.com/ianaio/website/tree/wwwproudamericaus"
   },
   "bugs": {
   "url": "https://github.com/ianaio/website/issues"
@@ -14,7 +14,7 @@
   "keywords": [
     "typescript",
     "proudamerica",
-    "stripe",
+    "ianaio",
     "rustwasm"
   ],
   "license-file": "LICENSE.txt",
