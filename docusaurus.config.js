@@ -89,7 +89,7 @@ const config = {
         width: 27.83,
         height: 32,
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Proud America - The United States of Amercia, Inc.`, // You can also put own HTML here
+      copyright: `Copyright © ${new Date().getFullYear()} Proud America - The United States of America, Inc.`, // You can also put own HTML here
     },
     prism: {
       theme: lightCodeTheme,
