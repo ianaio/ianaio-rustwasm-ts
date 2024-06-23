@@ -12,7 +12,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Proud America',
-  tagline: ' Top Quality People and Products. ',
+  tagline: ' American Made American Owned - Top Quality American Patriotic Clothes ',
   url: 'https://www.proudamerica.us',
   baseUrl: '/',
   onBrokenLinks: 'throw',

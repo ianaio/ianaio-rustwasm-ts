@@ -27,6 +27,7 @@
 .hero__title,.title_f1Hy {
     font-size: 3rem;
     color: #b31942;
+    font-family: serif;
 }
 
 .hero__subtitle {
@@ -132,6 +133,12 @@ a:hover {
   --ifm-color-primary-lighter: #ffa626;
   --ifm-color-primary-lightest: #ffb64d;
   --ifm-code-font-size: 95%;
+}
+
+.announcementBarContent_xLdY,.navbar__title {
+    color: beige;
+    flex: 1 1 auto;
+    font-family: serif;
 }
 
 
