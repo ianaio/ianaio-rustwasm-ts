@@ -43,7 +43,7 @@ html[data-theme='dark'] .hero__title,.title_f1Hy {
 }
 
 html[data-theme='dark'] .hero__subtitle {
-  color: red;
+  color: white;
 }
 
 /* PROUDAMERICA CSS */
@@ -119,19 +119,6 @@ a:hover {
 
 .footer__link-item:hover {
     color: #0a3161;
-}
-
-/* DARK MODE PROUDAMERICAUS */
-
-[data-theme='dark'] {
-  --ifm-color-primary: #b31942;
-  --ifm-color-primary-dark: #e68700;
-  --ifm-color-primary-darker: #d98000;
-  --ifm-color-primary-darkest: #b36900;
-  --ifm-color-primary-light: #ffa11a;
-  --ifm-color-primary-lighter: #ffa626;
-  --ifm-color-primary-lightest: #ffb64d;
-  --ifm-code-font-size: 95%;
 }
 
 
