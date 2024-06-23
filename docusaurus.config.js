@@ -41,7 +41,8 @@ const config = {
         src: 'img/proudamericaus.png',
       },
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'}, 
+	{to: '/shop', label: 'Shop', position: 'left'},
       ],
     },
     footer: {
