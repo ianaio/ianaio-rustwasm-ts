@@ -41,7 +41,9 @@ const config = {
         src: 'img/proudamericaus.png',
       },
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'}, 
+	{to: '/shop', label: 'Shop', position: 'left'},
+        {to: '/patriots', label: 'Patriots', position: 'left'}
       ],
     },
     footer: {
@@ -89,7 +91,7 @@ const config = {
         width: 27.83,
         height: 32,
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Proud America - The United States of America, Inc.`, // You can also put own HTML here
+      copyright: `Copyright © ${new Date().getFullYear()} Proud America ★ American Made ★ American Owned, Inc.`, // You can also put own HTML here
     },
     prism: {
       theme: lightCodeTheme,
